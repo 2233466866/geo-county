@@ -1,0 +1,35 @@
+{
+    "name": "perfect/geo-county",
+    "description": "通过经纬度查找中国县级行政区划编码。",
+    "type": "library",
+    "keywords": ["geojson", "administrative division", "china", "coordinates", "gb code"],
+    "homepage": "https://github.com/2233466866/geo-county",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Docker",
+            "email": "2233466866@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeojsonLookup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GeojsonLookup\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
